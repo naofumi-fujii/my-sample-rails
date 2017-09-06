@@ -1,5 +1,6 @@
 require File.expand_path('../../config/environment', __FILE__)
-require 'rails/test_help'
+# require 'rails/test_help'
+require 'test/unit/rails/test_help'
 
 require 'rails/hoges'
 
