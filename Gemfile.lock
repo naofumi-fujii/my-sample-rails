@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/naofumi-fujii/test-unit.git
-  revision: 77b0f69077522781a761d6390c8b1359d9cc6253
+  revision: 0f1d62caffb887c37a618c84c4afb33d568d1c0b
   branch: report-require-failed-omissions-as-failure
   specs:
     test-unit (3.2.6)
