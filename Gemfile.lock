@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/naofumi-fujii/test-unit.git
+  revision: 1c5698522a8fa6e0f8b8631bfa2594d2d954cf4c
+  branch: report-require-failed-omissions-as-error
+  specs:
+    test-unit (3.2.6)
+      power_assert
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -153,8 +161,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    test-unit (3.2.5)
-      power_assert
     test-unit-activesupport (1.0.9)
       activesupport
       test-unit
@@ -208,6 +214,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  test-unit!
   test-unit-rails
   turbolinks (~> 5)
   tzinfo-data
