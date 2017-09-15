@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/naofumi-fujii/test-unit.git
-  revision: ddd7b813df4c3b5559bfa86c0dd757f2abef2ff0
-  branch: report-require-failed-omissions-as-error
+  revision: 6f7504f205b6e81c8e25831f7cf42345c9fd0d82
+  branch: hogehoge
   specs:
     test-unit (3.2.6)
       power_assert
@@ -222,4 +222,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.15.3
+   1.15.4
