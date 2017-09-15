@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/naofumi-fujii/test-unit.git
-  revision: 7d5a7e3f094a0be83153170277ec7a5fcebf0e2b
-  branch: no-rescue-load-error
+  revision: 77b0f69077522781a761d6390c8b1359d9cc6253
+  branch: report-require-failed-omissions-as-failure
   specs:
     test-unit (3.2.6)
       power_assert
