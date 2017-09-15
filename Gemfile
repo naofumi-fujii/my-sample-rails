@@ -40,7 +40,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'test-unit', github: "naofumi-fujii/test-unit", branch: "hogehoge"
-  gem 'test-unit-rails'
+  gem 'test-unit-rails', github: "naofumi-fujii/test-unit-rails", branch: "hogehoge"
 end
 
 group :development do
