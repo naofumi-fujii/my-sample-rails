@@ -2,7 +2,11 @@ ja:
   activerecord:
     models:
       article: 記事  #g
+      user: ユーザー  #g
 
     attributes:
       article:
         title: タイトル  #g
+
+      user:
+        name: 名  #g
