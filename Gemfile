@@ -58,3 +58,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'i18n_generators'
 gem 'airbrake', '~> 7.0'
+gem 'newrelic_rpm'
