@@ -15,6 +15,7 @@ class ArticlesController < ApplicationController
   # GET /articles/new
   def new
     @article = Article.new
+    ab_finished(:new_user_free_points)
   end
 
   # GET /articles/1/edit
