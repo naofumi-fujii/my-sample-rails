@@ -42,7 +42,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     airbrake (7.1.0)
       airbrake-ruby (~> 2.5)
-    airbrake-ruby (2.5.1)
+    airbrake-ruby (2.6.0)
     arel (8.0.0)
     bindex (0.5.0)
     builder (3.2.3)
