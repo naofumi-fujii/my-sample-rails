@@ -15,7 +15,7 @@ class ArticlesController < ApplicationController
   # GET /articles/new
   def new
     @article = Article.new
-    ab_finished(:create_article_conversion)
+    ab_finished(:create_article)
   end
 
   # GET /articles/1/edit
