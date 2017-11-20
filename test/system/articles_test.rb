@@ -4,5 +4,6 @@ class ArticlesTest < ApplicationSystemTestCase
   test "visiting the index" do
     visit articles_url
     assert_selector "h1", text: "Article"
+    # page.save_and_open_screenshot
   end
 end
