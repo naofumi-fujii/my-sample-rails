@@ -28,7 +28,7 @@ jobs:
       - run: bundle exec rake db:create
       - run: bundle exec rake db:schema:load
 
-      - run: bin/rails test
+      - run: bundle exec rake test
 
       # Save test results for timing analysis
       - store_test_results:
