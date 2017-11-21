@@ -1,3 +1,4 @@
+
 [![CircleCI](https://circleci.com/gh/naofumi-fujii/my-sample-rails.svg?style=svg)](https://circleci.com/gh/naofumi-fujii/my-sample-rails)
 
 sample rails application for testing new features
