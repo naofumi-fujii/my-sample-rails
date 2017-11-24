@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'hogehoge'
 
 class AdminUsersControllerTest < ActionDispatch::IntegrationTest
   setup do
