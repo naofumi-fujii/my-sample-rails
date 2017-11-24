@@ -42,6 +42,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'test-unit-rails'
+  gem 'test-unit', '3.2.5'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'factory_bot_rails'
