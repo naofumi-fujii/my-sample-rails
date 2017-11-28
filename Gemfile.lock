@@ -110,7 +110,7 @@ GEM
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    pry-byebug (3.5.0)
+    pry-byebug (3.5.1)
       byebug (~> 9.1)
       pry (~> 0.10)
     pry-rails (0.3.6)
@@ -274,6 +274,7 @@ DEPENDENCIES
   view_source_map
   web-console (>= 3.3.0)
   webpacker
+
 
 RUBY VERSION
    ruby 2.4.2p198
