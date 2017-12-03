@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :comments
   resources :admin_users
   mount Split::Dashboard, at: 'split'
   root to: "articles#index"
