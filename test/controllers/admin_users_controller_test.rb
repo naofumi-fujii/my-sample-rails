@@ -3,6 +3,7 @@ require 'test_helper'
 class AdminUsersControllerTest < ActionDispatch::IntegrationTest
   setup do
     @admin_user = admin_users(:one)
+    assert false
   end
 
   test "should get index" do
