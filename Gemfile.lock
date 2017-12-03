@@ -220,7 +220,7 @@ GEM
     turbolinks-source (5.0.3)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
-    uglifier (3.2.0)
+    uglifier (4.0.0)
       execjs (>= 0.3.0, < 3)
     view_source_map (0.1.4)
       rails (>= 3.2)
@@ -271,6 +271,7 @@ DEPENDENCIES
   view_source_map
   web-console (>= 3.3.0)
   webpacker
+
 
 RUBY VERSION
    ruby 2.4.2p198
