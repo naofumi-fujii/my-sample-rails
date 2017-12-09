@@ -4,6 +4,7 @@ class CommentsController < ApplicationController
 
   # GET /comments
   def index
+    hoge
     @comments = Comment.all
   end
 
