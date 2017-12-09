@@ -41,9 +41,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    airbrake (7.1.0)
-      airbrake-ruby (~> 2.5)
-    airbrake-ruby (2.6.2)
     arel (8.0.0)
     bindex (0.5.0)
     builder (3.2.3)
@@ -246,7 +243,6 @@ PLATFORMS
 
 DEPENDENCIES
   action_args
-  airbrake (~> 7.0)
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
