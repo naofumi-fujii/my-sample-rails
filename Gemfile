@@ -47,6 +47,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.6'
 end
 
+group :test do
+  gem "rspec_junit_formatter"
+end
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
