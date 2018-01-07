@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: dbff1cee55a13ec7b0f135618555c3714bfd597b
+  revision: 1e51a38fbc767f2c7e33c0ac548422eebbb5981d
   specs:
     actioncable (5.2.0.beta2)
       actionpack (= 5.2.0.beta2)
@@ -170,7 +170,7 @@ GEM
     redis (4.0.1)
     rollbar (2.15.5)
       multi_json
-    rspec-core (3.7.0)
+    rspec-core (3.7.1)
       rspec-support (~> 3.7.0)
     rspec-expectations (3.7.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -200,7 +200,7 @@ GEM
     ruby-progressbar (1.9.0)
     ruby_dep (1.5.0)
     rubyzip (1.2.1)
-    sass (3.5.4)
+    sass (3.5.5)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -298,6 +298,7 @@ DEPENDENCIES
   view_source_map
   web-console (>= 3.3.0)
   webpacker
+
 
 RUBY VERSION
    ruby 2.5.0p-1
