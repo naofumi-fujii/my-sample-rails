@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 027f865fc8b262d9ba3ee51da3483e94a5489b66
+  revision: c09ebcf4a9d708de05025f669c4e6f018c0b3be5
   specs:
     actioncable (5.2.0.beta2)
       actionpack (= 5.2.0.beta2)
@@ -124,7 +124,7 @@ GEM
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.11.1)
-    multi_json (1.13.0)
+    multi_json (1.13.1)
     mustermann (1.0.1)
     newrelic_rpm (4.7.1.340)
     nio4r (2.2.0)
