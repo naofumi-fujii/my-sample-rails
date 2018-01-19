@@ -1,11 +1,11 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: c046143408dac439ce3072ca748f7be60e1c741b
+  revision: 2450fc24e30121863403517b44dfdfa7cb25e33a
   specs:
     actioncable (5.2.0.beta2)
       actionpack (= 5.2.0.beta2)
       nio4r (~> 2.0)
-      websocket-driver (~> 0.6.1)
+      websocket-driver (>= 0.6.1)
     actionmailer (5.2.0.beta2)
       actionpack (= 5.2.0.beta2)
       actionview (= 5.2.0.beta2)
@@ -148,7 +148,7 @@ GEM
     pry-rails (0.3.6)
       pry (>= 0.10.4)
     public_suffix (3.0.1)
-    puma (3.11.0)
+    puma (3.11.2)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
@@ -262,7 +262,7 @@ GEM
       activesupport (>= 4.2)
       rack-proxy (>= 0.6.1)
       railties (>= 4.2)
-    websocket-driver (0.6.5)
+    websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
     xpath (3.0.0)
