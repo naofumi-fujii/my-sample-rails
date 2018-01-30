@@ -25,6 +25,7 @@ default: &default
 
 development:
   <<: *default
+  host: db
   database: sample-rails_development
 
   # The specified database role being used to connect to postgres.
