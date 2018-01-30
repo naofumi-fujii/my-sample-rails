@@ -7,4 +7,4 @@ migrate_db:
 test:
 	docker-compose run --rm web bundle exec rails test
 down:
-	docker-compose down --remove-orphans
+	docker-compose down
