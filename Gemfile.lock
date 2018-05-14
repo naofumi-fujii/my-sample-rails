@@ -77,6 +77,8 @@ GEM
     ffi (1.9.23)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     i18n_generators (2.1.1)
@@ -98,6 +100,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     multi_json (1.13.1)
+    multi_xml (0.6.0)
     mustermann (1.0.2)
     newrelic_rpm (5.0.0.342)
     nio4r (2.3.0)
@@ -264,6 +267,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   factory_bot_rails
+  httparty
   i18n_generators
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
@@ -291,7 +295,6 @@ DEPENDENCIES
   view_source_map
   web-console (>= 3.3.0)
   webpacker
-
 
 RUBY VERSION
    ruby 2.5.0p-1
