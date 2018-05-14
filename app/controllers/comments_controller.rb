@@ -4,6 +4,7 @@ class CommentsController < ApplicationController
 
   # GET /comments
   def index
+    res = HTTParty.get('http://localhost:3000/users.json')
     @comments = Comment.all
   end
 
