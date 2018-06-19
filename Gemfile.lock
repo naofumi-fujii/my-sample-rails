@@ -119,7 +119,7 @@ GEM
     public_suffix (3.0.2)
     puma (3.11.4)
     rack (2.0.5)
-    rack-protection (2.0.1)
+    rack-protection (2.0.3)
       rack
     rack-proxy (0.6.4)
       rack
@@ -206,10 +206,10 @@ GEM
       childprocess (~> 0.5)
       rubyzip (~> 1.2)
     simple-random (1.0.3)
-    sinatra (2.0.1)
+    sinatra (2.0.3)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack-protection (= 2.0.3)
       tilt (~> 2.0)
     split (3.2.0)
       redis (>= 2.1)
@@ -291,7 +291,6 @@ DEPENDENCIES
   view_source_map
   web-console (>= 3.3.0)
   webpacker
-
 
 RUBY VERSION
    ruby 2.5.0p-1
