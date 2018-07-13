@@ -2,3 +2,5 @@ inherit_from: .rubocop_todo.yml
 
 Rails:
   Enabled: true
+Style/Documentation:
+  Enabled: false
