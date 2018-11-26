@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :registrations
   root to: "comments#index"
   resources :comments
   mount Split::Dashboard, at: 'split'
