@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :admin do
+    resources :characters
+  end
   resources :characters
   root to: "comments#index"
   resources :comments
