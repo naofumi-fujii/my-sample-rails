@@ -1,6 +1,5 @@
 class Admin::CharactersController < ApplicationController
   before_action :set_admin_character, only: [:show, :edit, :update, :destroy]
-  permits :name
 
   # GET /admin/characters
   def index
@@ -22,7 +21,7 @@ class Admin::CharactersController < ApplicationController
 
   # POST /admin/characters
   def create(admin_character)
-    @admin_character = Admin::Character.new(admin_character)
+    @admin_character = Admin::Character.new(admin_character.permit(:name))
 
     if @admin_character.save
       redirect_to @admin_character, notice: 'Character was successfully created.'
