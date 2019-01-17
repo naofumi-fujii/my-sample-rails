@@ -4,7 +4,7 @@ class Admin::CharactersController < ApplicationController
 
   # GET /admin/characters
   def index
-    @admin_characters = Character.all
+    @admin_characters = Admin::Character.all
   end
 
   # GET /admin/characters/1
@@ -13,7 +13,7 @@ class Admin::CharactersController < ApplicationController
 
   # GET /admin/characters/new
   def new
-    @admin_character = Character.new
+    @admin_character = Admin::Character.new
   end
 
   # GET /admin/characters/1/edit
@@ -22,7 +22,7 @@ class Admin::CharactersController < ApplicationController
 
   # POST /admin/characters
   def create(admin_character)
-    @admin_character = Character.new(admin_character)
+    @admin_character = Admin::Character.new(admin_character)
 
     if @admin_character.save
       redirect_to @admin_character, notice: 'Character was successfully created.'
@@ -50,6 +50,6 @@ class Admin::CharactersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_admin_character(id)
-      @admin_character = Character.find(id)
+      @admin_character = Admin::Character.find(id)
     end
 end
