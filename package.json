@@ -2,13 +2,13 @@
   "name": "sample-rails",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.0.2",
+    "@rails/webpacker": "3.5",
     "coffeescript": "1.12.7",
     "vue": "^2.5.22",
     "vue-loader": "14.2.2",
     "vue-template-compiler": "^2.5.22"
   },
   "devDependencies": {
-    "webpack-dev-server": ">=3.1.11"
+    "webpack-dev-server": "2.11.2"
   }
 }
