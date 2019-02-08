@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :category_posts
   resources :posts
   resources :categories
   root to: "comments#index"
