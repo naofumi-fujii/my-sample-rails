@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180713015858) do
+ActiveRecord::Schema.define(version: 2019_02_08_062012) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,8 +21,29 @@ ActiveRecord::Schema.define(version: 20180713015858) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "category_posts", force: :cascade do |t|
+    t.bigint "category_id"
+    t.bigint "post_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["category_id"], name: "index_category_posts_on_category_id"
+    t.index ["post_id"], name: "index_category_posts_on_post_id"
+  end
+
   create_table "comments", force: :cascade do |t|
     t.text "content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -33,4 +54,6 @@ ActiveRecord::Schema.define(version: 20180713015858) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "category_posts", "categories"
+  add_foreign_key "category_posts", "posts"
 end
