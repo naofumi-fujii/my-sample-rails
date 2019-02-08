@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    action_args (2.3.1)
     actioncable (5.2.2)
       actionpack (= 5.2.2)
       nio4r (~> 2.0)
@@ -269,6 +270,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  action_args
   activestorage (>= 5.2.1.1)
   byebug
   capybara (~> 2.13)
