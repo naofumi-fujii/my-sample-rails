@@ -1,7 +1,3 @@
-[![CircleCI](https://circleci.com/gh/naofumi-fujii/my-sample-rails.svg?style=svg)](https://circleci.com/gh/naofumi-fujii/my-sample-rails)
-
-sample rails application for testing new features
-
 # README
 
 This README would normally document whatever steps are necessary to get the
