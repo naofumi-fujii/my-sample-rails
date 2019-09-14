@@ -14,7 +14,7 @@ blockingLabels:
 # Will merge whenever the above conditions are met, but also
 # the owner has approved or merge label was added.
 rules:
-- minApprovals:
-    OWNER: 1
+# - minApprovals:
+#     OWNER: 1
 - requiredLabels:
   - merge
