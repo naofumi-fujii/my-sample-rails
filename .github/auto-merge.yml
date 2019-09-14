@@ -18,3 +18,4 @@ rules:
 #     OWNER: 1
 - requiredLabels:
   - merge
+  - dependencies
