@@ -17,4 +17,4 @@ rules:
 # - minApprovals:
 #     OWNER: 1
 # - requiredLabels:
-#  - auto-merge
+#   - auto-merge
